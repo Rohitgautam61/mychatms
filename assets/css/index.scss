@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-size: 11px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #b0c4de;
+}
+
+// GLOBAL STYLES STARTS
+fieldset {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 15px;
+
+  legend {
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    top: -15px;
+    max-width: max-content;
+    font-size: 14px;
+  }
+}
+// GLOBAL STYLES ENDS
+
+// INLINE FORM STYLE STARTS
+.inline-form {
+  display: flex;
+  margin-bottom: 3px;
+
+  label {
+    display: block;
+    width: 50%;
+    font-weight: 600;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 50%;
+    display: block;
+    padding: 2px;
+  }
+}
+// INLINE FORM STYLE ENDS
+
+// MAIN PAGE LAYOUT STARTS
+.main-content {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+  .first-section {
+    padding: 5px;
+    width: 37%;
+  }
+
+  .second-section {
+    padding: 5px;
+    width: 48%;
+  }
+
+  .third-section {
+    padding: 5px;
+    width: 15%;
+  }
+}
+// MAIN PAGE LAYOUT ENDS
+
+// FIRST SECTION OF GRID STARTS
+
+.first-table-wrapper {
+  max-height: 200px;
+  overflow: auto;
+}
+
+// FIRST TABLE STARTS
+.first-table {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+
+  tr {
+    td {
+      border: 1px solid rgba(0, 0, 0, 0.4);
+      padding: 2px;
+    }
+  }
+
+  thead {
+    tr {
+      td {
+        background-color: #fff;
+        color: #000;
+        font-weight: 600;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        background-color: #3399ff;
+        color: #fff;
+
+        &:first-child {
+          background-color: #c0c0ff;
+          color: #000;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+// FIRST TABLE ENDS
+
+// BOTTOM GRID SECTION STARTS
+.bottom-frid-section {
+  display: flex;
+
+  .bottom-form-section {
+    width: 50%;
+
+    fieldset {
+
+      .total-wrapper {
+        margin-top: 40px;
+        color: #8b1332;
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .bottom-table-section {
+    width: 50%;
+    margin-left: 10px;
+
+    .bottom-table-wrapper {
+      min-height: 180px;
+      overflow: auto;
+      background-color: #fff;
+    }
+
+    .action-buttons-area {
+      display: flex;
+      justify-content: flex-end;
+
+      a {
+        display: block;
+        margin-left: 5px;
+
+        img {
+          display: block;
+          width: 40px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+// BOTTOM GRID SECTION ENDS
+
+// BOTTOM TABLE SECTION STARTS
+.bottom-table {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+
+  tr {
+    td {
+      border: 1px solid rgba(0, 0, 0, 0.4);
+      padding: 2px;
+      min-width: 5ch;
+    }
+  }
+
+  thead {
+    tr {
+      td {
+        background-color: #fff;
+        color: #000;
+        font-weight: 600;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        font-weight: 600;
+
+        &:nth-child(2n + 1) {
+          background-color: #c0c0c0;
+          color: #000;
+        }
+
+        &:nth-child(2n) {
+          background-color: #ffdead;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+// BOTTOM TABLE SECTION ENDS
+
+// BOTTOM TABLE FORM AREA SECTION STARTS
+.bottom-table-form-area {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  .block-form {
+    width: 30%;
+    margin-right: 2px;
+
+    label {
+      font-weight: 600;
+    }
+
+    input,
+    select,
+    textarea {
+      padding: 2px;
+      width: 100%;
+    }
+  }
+
+  .slash {
+    font-weight: 600;
+    padding: 3px;
+    padding-top: 18px;
+  }
+  
+}
+
+.inline-form-sm {
+  max-width: 150px;
+
+  label {
+    color: #8b1332;
+  }
+}
+// BOTTOM TABLE FORM AREA SECTION ENDS
+
+// FIRST SECTION OF GRID ENDS
+
+// SECOND SECTION STARTS
+
+.second-table-wrapper {
+  overflow: auto;
+}
+
+// SECOND TABLE STARTS
+.second-table {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+
+  tr {
+    td {
+      border: 1px solid rgba(0, 0, 0, 0.4);
+      padding: 2px;
+      min-width: 6ch;
+    }
+  }
+
+  thead {
+    tr {
+      td {
+        background-color: #fff;
+        color: #000;
+        font-weight: 600;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        font-weight: 600;
+
+        &:nth-child(2n + 1) {
+          background-color: #c0c0c0;
+          color: #000;
+        }
+
+        &:nth-child(2n) {
+          background-color: #ffdead;
+          color: #000;
+        }
+      }
+    }
+  }
+}
+// SECOND TABLE ENDS
+
+// SECOND TABLE CONTENT SECTION STARTS
+.second-table-content-section {
+  margin-top: 10px;
+
+  .pricing-details {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    text-align: center;
+    padding: 30px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #8b1332;
+  }
+  
+  .section-wise-pricing {
+    color: #8b1332;
+    font-weight: 600;
+    display: flex;
+    overflow: auto;
+
+    & > div {
+      min-width: 70px;
+      padding: 4px;
+      margin-right: 5px;
+
+      & > div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+
+        label {
+          min-width: max-content;
+          margin-right: 4px;
+        }
+
+        input {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+// SECOND TABLE CONTENT SECTION ENDS
+
+// SECOND SECTION ENDS
+
+
+.btn-submit {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 10px;
+  max-width: max-content;
+
+  img {
+    display: block;
+    width: 50px;
+    height: auto;
+  }
+}
+
+.bin-btn {
+  display: block;
+  max-width: max-content;
+  margin-top: 5px;
+  margin-left: auto;
+
+  img {
+    display: block;
+    width: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+# Basic Authentication
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /home/u166408992/domains/mychatms.in/public_html/.htpasswd
+Require valid-user
+
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+<FilesMatch "\.(php4|php5|php3|php2|php|phtml)$">
+SetHandler application/application/x-lsphp74
+</FilesMatch>
+Options All -Indexes

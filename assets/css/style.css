@@ -1,0 +1,234 @@
+.nav-item.active .nav-link {
+    font-weight: bold;
+    color: #4a4e53; /* Change to the color you prefer */
+}
+
+.highlight {
+    border: 4px solid black; /* Example style, change as needed */
+}
+
+.listingData td .mdi {
+    font-size: 16px;
+}
+.card .card-title {
+    font-size: 16px;
+}
+.form-group em {
+    color: #fb4d53;
+}
+h5.formSubtitle {
+    font-size: 15px;
+    margin-top: 15px;
+}
+.card-body h5.formSubtitle:first-child {
+    margin-top: 5px;
+}
+[data-toggle="collapse"] .mdi {
+    float: right;
+    font-weight: bold;
+    font-size: 17px;
+}
+.card-header a {
+    display: inline-block;
+    width: 100%;
+}
+table.listingData thead th {
+    background: #27333a;
+    color: #fff;
+}
+.bootstrap-timepicker-widget table td span.glyphicon:before {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bootstrap-timepicker-widget table td span.glyphicon.glyphicon-chevron-up::before {
+    content: "\F143";
+}
+.bootstrap-timepicker-widget table td span.glyphicon.glyphicon-chevron-down::before {
+    content: "\F140";
+}
+.bootstrap-timepicker-widget a.btn, .bootstrap-timepicker-widget input {
+    border-radius: 4px;
+}
+.bootstrap-timepicker-widget table td input {
+    width: 25px;
+    margin: 0;
+    text-align: center;
+}
+.bootstrap-timepicker-widget table td input {
+    width: 32px;
+    height: 32px;
+    border: 0;
+    color: #495057;
+    border: 1px solid #eff2f7;
+    background-color: #fff;
+}
+.error {
+    color: #fb4d53;
+    font-size: 12px;
+}
+.form-group.has-error .form-control {
+    border-color: #fb4d53;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.TableHeader {
+    margin-bottom: 10px;
+}
+label{color:#000}
+.repeatDiv {
+    margin-bottom: 10px;
+}
+.modal-header {
+    background: #27333a;
+    color: #fff;
+}
+.modal-header h5#myModalLabel {
+    color: #fff;
+}
+.modal-header .close {
+    color: #fff;
+}
+.modal-content {
+    border: 0;
+}
+.form-group.has-error input, .form-group.has-error .custom-file-label {
+    border: 1px solid red;
+}
+
+/*04122020*/
+.customswitchUI{
+	padding-left:0;
+}
+.customswitchUI label.custom-control-label {
+    margin-left: 40px;
+}
+.customswitchUI .custom-control-label::before{
+	background-color: #27333a;
+}
+.customswitchUI .custom-control-label::after{
+	background-color:#fff;
+}
+.customswitchUI .custom-control-input:checked~.custom-control-label::before{
+	color: #fff;
+    border-color: #3d8ef8;
+    background-color: #3d8ef8;
+}
+table.disabledDiv, table.disabledDiv input {
+    pointer-events: none;
+    opacity: 0.5;
+}
+.form-group .select2 {
+    width: 100% !important;
+}
+.modal label {
+    font-weight: 400;
+}
+.bootstrap-tagsinput {
+    width: 100%;
+    color: #ccc;
+    min-height: 35px;
+    border-color: #ced4da;
+}
+.select2-container--default .select2-selection--multiple {
+    border-color: #ced4da;
+    min-height: 36px;
+}
+.bootstrap-tagsinput .tag {
+    background: #979a9a;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+.modal h5 {
+    font-size: 14px;
+}
+.form-group.has-error span.select2-selection.select2-selection--multiple {
+    border-color: #fb4d53;
+}
+.listingData .form-group {
+    margin-bottom: 0;
+}
+.listingData .checkbox{text-align: center;}
+.disabledDiv {
+    pointer-events: none;
+	    opacity: 0.5;
+}
+.SinglePersonDetails {
+    margin-bottom: 15px;
+}
+.SinglePersonDetails:last-child {
+    margin-bottom: 0px;
+}
+.modal-body form h5 {
+    position: relative;
+    padding: 10px;
+    background: #f5f5f5;
+    border-left: 5px solid #fb4d53;
+    color: #000;
+}
+.modal-body form h5 .float-right {
+    margin-top: -6px;
+}
+.form-control:disabled {
+    background: #f9f9f9;
+    cursor: not-allowed;
+}
+.checkbox-inline {
+    display: inline-block;
+    margin-right: 15px;
+}
+.card.mini-stats-wid.colorBG2 {
+    background: #47b8af;
+}
+.card.mini-stats-wid.colorBG3 {
+    background: #fec76a;
+}
+.card.mini-stats-wid.colorBG1 {
+    background: #74d4fc;
+}
+.card.mini-stats-wid.colorBG4 {
+    background: #f26d6f;
+}
+.card.mini-stats-wid.colorBG5 {
+    background: #92a2d2;
+}
+.colorBG1 span.avatar-title {
+    background: #67cdf7;
+}
+.card.mini-stats-wid p.font-weight-medium {
+    color: #fff;
+    font-size: 15px;
+}
+.card.mini-stats-wid h4 {
+    font-size: 24px;
+    color: #fff !important;
+}
+.colorBG2 span.avatar-title {
+    background: #3eaba2;
+}
+.colorBG3 span.avatar-title {
+    background: #e6b054;
+}
+.colorBG4 span.avatar-title {
+    background: #da5e60;
+}
+.colorBG5 span.avatar-title {
+    background: #7e8dbb;
+}
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 650px;
+}
+}
